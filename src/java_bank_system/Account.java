@@ -5,8 +5,10 @@ public class Account {
 	private int accountNumber;
 	public String name;
 	public double balance; 
+	public double depositInt;
 	public double deposit;
-	public double sake;
+	public int taxWithdraw = 5;
+	public double withdraw;
 	
 	public Account(int accountNumber, String name) {
 		this.accountNumber = accountNumber;
@@ -19,6 +21,14 @@ public class Account {
 	
 	public void setAccountNumber(int accountNumber) {
 		this.accountNumber = accountNumber;
+	}
+	
+	public double getBalance() {
+		return balance;
+	}
+	
+	public void setBalance(double balance) {
+		this.balance = balance;
 	}
 	
 	

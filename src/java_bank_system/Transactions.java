@@ -26,7 +26,7 @@ public class Transactions {
 			account.setBalance(account.depositInt);
 		}else {
 			account.setBalance(0);
-		}
+		} 
 		
 		System.out.print("\nAccount data:");
 		System.out.println("\nAccount " +account.getAccountNumber()+ ", Holder: " + name+ ", Balance: "+account.getBalance()+"\n");
